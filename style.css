@@ -1,0 +1,18 @@
+.btn-success:hover {
+    background-color: darkred;
+}
+
+canvas {
+    animation-name: mustache;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mustache {
+    from {
+        box-shadow: 1px 1px 40px rgb(229, 132, 241);
+    }
+    to {
+        box-shadow: 1px 1px 40px rgb(114, 214, 231);
+    }
+}
